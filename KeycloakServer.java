@@ -5,7 +5,7 @@ import org.keycloak.admin.client.Keycloak;
 import org.keycloak.admin.client.KeycloakBuilder;
 import org.keycloak.admin.client.resource.RealmResource;
 import org.keycloak.admin.client.resource.UsersResource;
-import org.keycloak.representations.idm.UserRepresentation;
+import org.keycloak.representations.id
 
 import java.util.*;
 
@@ -78,7 +78,7 @@ public class KeycloakServer {
         user.setId(phoneNumber);
         user.setUsername(phoneNumber);
         user.setFirstName(firstName);
-        user.setLastName(lastName);
+        user.setLa);
         user.setEmail(email);
         List<String> list = new ArrayList<>();
         list.add("VirtualDoctor.Patients");
@@ -87,9 +87,7 @@ public class KeycloakServer {
         // Add attributes
         Map<String, List<String>> attributes = new HashMap<>();
         attributes.put("birthdate", Arrays.asList(birthDate));
-        attributes.put("gender", Arrays.asList(gender));
-        attributes.put("phoneNumber", Arrays.asList(phoneNumber));
-        attributes.put("FHIRId", Arrays.asList(FHIRId));
+        attributes.put("geRId));
         user.setAttributes(attributes);
 
         // Add new user to Keycloak
