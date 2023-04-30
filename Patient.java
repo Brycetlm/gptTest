@@ -6,7 +6,7 @@ public class Patient implements UserInterface {
     private String id;
     private String firstName;
     private String lastName;
-    private String phoneNumber;
+    private
 
     private String dateOfBirth; // dd/mm/yyyy
     private String gender;// male; female; not to tell
@@ -40,7 +40,7 @@ public class Patient implements UserInterface {
         return id;
     }
 
-    public void setId(String id) {
+    public ing id) {
         this.id = id;
     }
 
@@ -51,7 +51,17 @@ public class Patient implements UserInterface {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-
+    
+    
+    public String getLastName() {
+        return lastName;
+    }
+    public String getLastName() {
+        return lastName;
+    }
+    public String getLastName() {
+        return lastName;
+    }
     public String getLastName() {
         return lastName;
     }
